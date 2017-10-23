@@ -1,6 +1,6 @@
 
-# Supervised Machine Learning Project
-## Finding Donors for CharityML
+# Model Evaluation & Validation Project
+## Predicting Boston Housing Prices
 
 
 
@@ -12,13 +12,11 @@
 
 ### <a name="project-overview"></a>Project Overview
 
-This is the project on Supervised Machine Learning Techniques. The goal of this project is to construct a model that accurately predicts whether an individual makes more than $50,000. The dataset for this project originates from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Census+Income). This project involves with: 
-- Data Exploration 
-- Data Preprocessing
-- Creating a Traininga nd Predicting Pipeline
-- Initial Model Evaluation
-- Model Tuning
-- Extracting Feature Importance 
+This is the project on Model Evaluation & Validation. The goal of this project is to construct a working model which has the capability of predicting the value of houses. The dataset for this project originates from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Census+Income). This project involves with: 
+- Calculate Statistics
+- Define a performance metric
+- Shuffle and Split data
+- Fitting a model
 
 ### <a name="install"></a>Install
 
@@ -33,8 +31,4 @@ The project requires **Python 2.7** and the following Python libraries:
 
 ### <a name="code"></a>Code
 
-All of the code is provided in the Jupyter notebook `finding_donors.ipynb`. 
-
-#### Result
-- The optimized model using all features has an accuracy of 0.865 and a F-score of 0.741, which are much higher than Benchmark model's accuracy of 0.248 and F-score of 0.292. 
-- Let's refer the data on only the top 5 most important features as the reduced data. The F-score and accuracy score from the final model trained on reduce data are lower than that on full data, but it's not much lower. Accuracy dropped by 0.005 and F-score dropped by 0.013. If training time was a factor, then training on reduced data is beneficial. 
+All of the code is provided in the Jupyter notebook `boston_housing.ipynb`. 
